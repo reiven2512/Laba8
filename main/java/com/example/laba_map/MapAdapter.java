@@ -101,8 +101,7 @@ public class MapAdapter extends BaseAdapter implements Filterable {
     private void findBooks(String bookTitle) {
         final String url = "https://maps.googleapis.com/maps/api/geocode/json?"
                 + "address=" + bookTitle
-                + "&key=AIzaSyDwIQxz9A_3xz8LZidyriZgjUd1qFoseVQ";
-//        String url = "https://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Parkway,+Mountain+View,+CA&key=AIzaSyDwIQxz9A_3xz8LZidyriZgjUd1qFoseVQ";
+                + "&key=MyKey";
         tmp = new ArrayList<>();
         RequestQueue requestQueue = Volley.newRequestQueue(mContext);
         JsonObjectRequest jsonArrayRequest = new JsonObjectRequest(
