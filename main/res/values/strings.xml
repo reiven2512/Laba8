@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Laba_map</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="button">Поиск</string>
+    <string name="from">Откуда:</string>
+    <string name="to">Куда:</string>
+</resources>
