@@ -69,7 +69,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 + "&destination=" + last.latitude + "," + last.longitude
                 + "&sensor=false&units=metric"
                 + "&mode=driving"
-                + "&key=AIzaSyAuRqY5XRF0FcTYImWzIrfXVl7SD7leg9E";
+                + "&key=MyKey";
         download(url);
     }
 
